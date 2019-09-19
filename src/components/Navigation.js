@@ -28,16 +28,19 @@ const Navigation = () =>
                     <StyledLink to="/">Home</StyledLink>
                 </StyledListItem>
                 <StyledListItem>
-                    <StyledLink to="/about/">About</StyledLink>
+                    <StyledLink to="/about">About</StyledLink>
                 </StyledListItem>
                 <StyledListItem>
-                    <StyledLink to="/contacts/">Contacts</StyledLink>
+                    <StyledLink to="/contacts">Contacts</StyledLink>
                 </StyledListItem>
                 <StyledListItem>
-                    <StyledLink to="/football/">Football</StyledLink>
+                    <StyledLink to="/football">Football</StyledLink>
                 </StyledListItem>
                 <StyledListItem>
-                    <StyledLink to="/dogs/">Dogs</StyledLink>
+                    <StyledLink to="/dogs">Dogs</StyledLink>
+                </StyledListItem>
+                <StyledListItem>
+                    <StyledLink to="/foods">Foods</StyledLink>
                 </StyledListItem>
             </StyledList>
         </nav>;

@@ -1,8 +1,7 @@
 import React from "react";
 import './Football.css';
 import Layout from "../components/Layout";
-import { Helmet } from "react-helmet";
-import MouseTracker from "../components/MouseTracker";
+import Helmet from "react-helmet";
 
 const Index = () =>
     <Layout>
@@ -11,7 +10,6 @@ const Index = () =>
             <title>Home page</title>
         </Helmet>
         <h2>Home</h2>
-        <MouseTracker />
     </Layout>;
 
 export default Index;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Layout from "../components/Layout";
-import { Helmet } from "react-helmet";
+import Helmet from "react-helmet";
 import Dog from "../components/Dog";
 
 const Dogs = () =>
