@@ -42,6 +42,9 @@ const Navigation = () =>
                 <StyledListItem>
                     <StyledLink to="/foods">Foods</StyledLink>
                 </StyledListItem>
+                <StyledListItem>
+                    <StyledLink to="/hooks">Hooks</StyledLink>
+                </StyledListItem>
             </StyledList>
         </nav>;
 
