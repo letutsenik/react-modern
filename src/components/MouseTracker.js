@@ -12,7 +12,7 @@ class MouseTracker extends React.Component {
                 {/*<Mouse render={mouse => (*/}
                 {/*    <Cat mouse={mouse} />*/}
                 {/*)}/>*/}
-                <CatWithMouse />
+                <CatWithMouse className="cool cat" />
             </div>
         );
     }

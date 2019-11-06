@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdVaJa NFzwl"
+>
+  <form
+    className="sc-bwzfXH dwfFCr"
+  >
+    <input
+      className="sc-htpNat hSdKxR"
+      onClick={[Function]}
+      type="text"
+    />
+    <input
+      className="sc-htpNat hSdKxR"
+      onClick={[Function]}
+      type="text"
+    />
+    <button
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;

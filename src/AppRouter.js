@@ -7,6 +7,7 @@ import Football from "./pages/Football";
 import Dogs from "./pages/Dogs";
 import Foods from "./pages/Foods";
 import Hooks from "./pages/Hooks";
+import Context from "./pages/Context";
 
 const AppRouter = () => (
     <Router>
@@ -18,6 +19,7 @@ const AppRouter = () => (
             <Route path="/dogs/" component={Dogs} />
             <Route path="/foods/" component={Foods} />
             <Route path="/hooks" component={Hooks} />
+            <Route path="/context" component={Context} />
         </div>
     </Router>
 );

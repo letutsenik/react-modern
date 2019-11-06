@@ -1,5 +1,5 @@
 import React from "react";
-import '../App.css';
+import '../../App.css';
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
 
@@ -21,7 +21,7 @@ const StyledLink = styled(Link)`
   font-weight: bold;
 `;
 
-const Navigation = () =>
+export const Navigation = () =>
         <nav>
             <StyledList>
                 <StyledListItem>
@@ -45,8 +45,8 @@ const Navigation = () =>
                 <StyledListItem>
                     <StyledLink to="/hooks">Hooks</StyledLink>
                 </StyledListItem>
+                <StyledListItem>
+                    <StyledLink to="/context">Context</StyledLink>
+                </StyledListItem>
             </StyledList>
         </nav>;
-
-
-export default Navigation;

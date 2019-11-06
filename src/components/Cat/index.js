@@ -3,9 +3,9 @@ import cat from "./cat.svg";
 
 class Cat extends React.Component {
     render() {
-        const { mouse } = this.props;
+        const { mouse, className } = this.props;
         return (
-            <img width="100px" height="100px" src={cat} style={{ position: 'absolute', left: mouse.x, top: mouse.y }} alt="cat" />
+            <img width="100px" height="100px" className={className} src={cat} style={{ position: 'absolute', left: mouse.x, top: mouse.y }} alt="cat" />
         );
     }
 }
