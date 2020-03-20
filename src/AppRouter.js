@@ -8,6 +8,7 @@ import Dogs from "./pages/Dogs";
 import Foods from "./pages/Foods";
 import Hooks from "./pages/Hooks";
 import Context from "./pages/Context";
+import Users from "./pages/Users";
 
 const AppRouter = () => (
     <Router>
@@ -20,6 +21,7 @@ const AppRouter = () => (
             <Route path="/foods/" component={Foods} />
             <Route path="/hooks" component={Hooks} />
             <Route path="/context" component={Context} />
+            <Route path="/users" component={Users} />
         </div>
     </Router>
 );

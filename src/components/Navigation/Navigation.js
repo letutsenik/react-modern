@@ -48,5 +48,8 @@ export const Navigation = () =>
                 <StyledListItem>
                     <StyledLink to="/context">Context</StyledLink>
                 </StyledListItem>
+                <StyledListItem>
+                    <StyledLink to="/users">Users</StyledLink>
+                </StyledListItem>
             </StyledList>
         </nav>;

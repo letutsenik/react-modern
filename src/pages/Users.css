@@ -1,0 +1,103 @@
+
+.main-container {
+    display: flex;
+    height: calc(100vh - 60px);
+    /*border: 1px solid red;*/
+}
+
+.left-column {
+    width: 20%;
+    /*border: 1px solid blue;*/
+}
+
+.right-column {
+    /*padding: 15px;*/
+    width: 80%;
+    /*border: 1px solid green;*/
+}
+
+.content {
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+.filters-bar {
+    height: 100px;
+    background-color: darkcyan;
+    text-align: center;
+    font-size: 36px;
+    line-height: 100px;
+}
+
+.list-container {
+    /*border: 2px solid #bababa;*/
+    /*border-radius: 10px;*/
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info p {
+    margin: 0;
+}
+
+.list-group-item {
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-group-item .number {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.list-group-item .avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #f0f0f0;
+}
+
+.user-list-wrapper {
+    position: relative;
+}
+
+.loading {
+    position: absolute;
+    padding-top: 25%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.loading .stub {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.7;
+    z-index: 20;
+}
+
+.loading h2 {
+    position: relative;
+    z-index: 30;
+}
